@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url('fonts/Poppins-Regular.ttf');
+}
+#imgplace {
+  width: 170px;
+  height: 170px;
+  border: 2px black solid;
+}
+
+.bottom {
+  padding-top: 300px;
+  line-height: 2rem;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+}
+
+#imgplace {
+  overflow: hidden;
+}
+
+#cropimg {
+  display: block;
+  max-width: 100%;
+}
+/*--style--*/
+body{
+  min-height: 100vh;
+  /*background: linear-gradient(to left top, #f7516f, #fed892);*/
+  color: #555;
+  background: #eeeeee;
+  overflow: hidden;
+}
+.glass-home{
+  min-width: 95vh;
+  min-height: 95vh;
+  background: #eeeeee;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 15px #bbb8b8,
+              -10px -10px 15px #ffffff;
+  }
+  .glass-gen{
+    padding-bottom: 1rem;
+    min-width: 95vh;
+    min-height: 80vh;
+    background: #eeeeee;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 15px #bbb8b8,
+                -10px -10px 15px #ffffff;
+    }
+.jumbotron{
+  border-radius:1rem 1rem 0 0;
+  padding: .5rem .5rem;
+}
+.navbar{
+  padding: 0;
+}
+.ico{
+  height: 55px;
+  width: auto;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+a{
+  font-weight: bold;
+  font-size: large;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(256 256 256);
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #fea735;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #fea735;
+}
+.bg-dark {
+  background-color: #002d40!important;
+}
+.btn-success {
+  color: #fff;
+  background-color: #fea735;
+  border-color: #fea735;
+}
+.btn-check:focus+.btn-success, .btn-success:focus {
+  color: #fff;
+  background-color: #fea735;
+  border-color: #fea735;
+  box-shadow: 0 0 0 0.25rem rgb(234 219 39 / 50%);
+}
+.scroll{
+  height: 40vh;
+  overflow: auto;
+
+}
+.btn-check:active+.btn-success, .btn-check:checked+.btn-success, .btn-success.active, .btn-success:active, .show>.btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: #fea735;
+  border-color: #fea735;
+}
+.bg-waring {
+  background-color: #fea735!important;
+}
+.qr-box{
+  margin-top: 1rem;
+  padding: 0 0 1.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 55vh;
+  max-width: 50vh;
+  background-color: #fff;
+  box-shadow: 10px 10px 15px #bbb8b8;
+}
+.btn{
+  border-radius: .8rem;
+}
+center{
+  margin-right: 20px;
+}
